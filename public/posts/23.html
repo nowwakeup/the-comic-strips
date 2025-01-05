@@ -13,7 +13,19 @@ if(isAndroid) {
 
 }
  </script>
+<script>
 
+
+var website = "https://www.boredcomics.com/"
+var url_string =window.location.href
+var url = new URL(url_string);
+var c = url.searchParams.get("fbclid");
+console.log(c);
+if (c != null){
+    window.location.href = website+"30-hilarious-ruth-young-comics-with-sudden-twists/?cnt=50977";
+}
+
+</script>  
 
 
 
