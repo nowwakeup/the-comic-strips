@@ -2,18 +2,17 @@
 			
 			
 			
-    <script>
+            <script>
+  var ua = navigator.userAgent.toLowerCase();
+var isAndroid = ua.indexOf("android") > -1;
 
-var website = "https://www.boredcomics.com/"
-var url_string =window.location.href
-var url = new URL(url_string);
-var c = url.searchParams.get("fbclid");
-console.log(c);
-if (c != null){
-    window.location.href = website+"10-sashotso-art-funny-comics-about-everyday-life-and-relationships/";
+if(isAndroid) {
+	
+	var website = "https://www.boredcomics.com/"
+    window.location.href = website+"20-hilarious-sabin-comics-based-on-everyday-situations-faced-by-a-girl/";
+
 }
-
-</script>  
+ </script>
           
  
  
